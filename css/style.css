@@ -428,8 +428,12 @@
           align-items: center;
 }
 
+.advantages-1 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-1 .popup_header .book {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -522,8 +526,12 @@
           align-items: center;
 }
 
+.advantages-2 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-2 .popup_header .user {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -611,8 +619,12 @@
           align-items: center;
 }
 
+.advantages-3 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-3 .popup_header .chart {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -700,8 +712,12 @@
           align-items: center;
 }
 
+.advantages-4 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-4 .popup_header .light {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -789,8 +805,12 @@
           align-items: center;
 }
 
+.advantages-5 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-5 .popup_header .chart {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -878,8 +898,12 @@
           align-items: center;
 }
 
+.advantages-6 .popup_header h2 {
+  font-size: 24px;
+}
+
 .advantages-6 .popup_header .rocket {
-  font-size: 60px;
+  font-size: 40px;
   color: rgba(178, 34, 34, 0.931);
   margin-bottom: 15px;
 }
@@ -1117,13 +1141,7 @@
   font-weight: 700;
   color: #272727;
   margin-bottom: 30px;
-}
-
-.say_text .comments h4 span {
-  font-size: 15px;
-  font-family: "merriweather";
-  font-weight: 400;
-  color: #767070;
+  text-align: center;
 }
 
 .say_text .comments p {
@@ -1530,6 +1548,36 @@
     display: block;
   }
 
+  .advantages-1 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
+  .advantages-2 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
+  .advantages-3 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
+  .advantages-4 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
+  .advantages-5 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
+  .advantages-6 .popup {
+    width: 50%;
+    min-height: 60%;
+  }
+
   .say_slider {
     width: 100%;
     height: 362px;
@@ -1575,6 +1623,36 @@
 }
 
 @media screen and (max-width: 720px) {
+  .advantages-1 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
+  .advantages-2 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
+  .advantages-3 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
+  .advantages-4 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
+  .advantages-5 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
+  .advantages-6 .popup {
+    width: 60%;
+    min-height: 60%;
+  }
+
   .say_text .comments {
     width: 400px;
     min-height: 200px;
@@ -1582,6 +1660,36 @@
 }
 
 @media screen and (max-width: 540px) {
+  .advantages-1 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
+  .advantages-2 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
+  .advantages-3 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
+  .advantages-4 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
+  .advantages-5 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
+  .advantages-6 .popup {
+    width: 70%;
+    min-height: 60%;
+  }
+
   .say_text .comments {
     width: 350px;
     min-height: 200px;
@@ -1592,8 +1700,14 @@
     min-height: 200px;
   }
 
+  .say_text .comments h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
   .say_text .comments p {
     font-size: 14px;
+    margin-bottom: 14px;
   }
 }
 
@@ -1613,6 +1727,79 @@
   .card_foto img {
     -o-object-position: 0 0px;
        object-position: 0 0px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .advantages-1 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .advantages-2 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .advantages-3 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .advantages-4 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .advantages-5 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .advantages-6 .popup {
+    width: 80%;
+    min-height: 60%;
+  }
+
+  .say_text .comments p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .advantages-1 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .advantages-2 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .advantages-3 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .advantages-4 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .advantages-5 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .advantages-6 .popup {
+    width: 90%;
+    min-height: 60%;
+  }
+
+  .say_text .comments h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
 }
 
