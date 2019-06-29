@@ -2,14 +2,13 @@ $(function(){
     /* menu button  */
     var btn = $(".navbar_btn");
     var btn_active = $(".navbar_btn_active");
-    btn.click(function () {
-        btn.toggleClass("navbar_btn_active");
+    btn.click(function (e){
+      e.preventDefault;
+      btn.toggleClass("navbar_btn_active");
     });
-    btn_active.click(function () {
-        btn.removeClass("navbar_btn_active");
-    });
-    btn.click(function () {
-        $(".navbar_main").toggleClass("active");
+    btn.click(function (e) {
+      e.preventDefault;
+      $(".navbar_main").toggleClass("active");
     });
     /* menu button end */
 
